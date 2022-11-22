@@ -1,4 +1,4 @@
-# react-bootstrap-aws-starter
+# aws-react-bootstrap-starter
 
 A React Bootstrap starter project that provides seemless integration with AWS.  When used with [aws-sam-rest-api-starter](https://github.com/jorshali/aws-sam-rest-api-starter) you can have an AWS-backed React Bootstrap project up in less than 20 minutes.
 
