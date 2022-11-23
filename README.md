@@ -1,6 +1,8 @@
 # aws-react-bootstrap-starter
 
-A React Bootstrap starter project that provides seemless integration with AWS.  When used with [aws-sam-rest-api-starter](https://github.com/jorshali/aws-sam-rest-api-starter) you can have an AWS-backed React Bootstrap project up in less than 20 minutes.
+A TypeScript-based React Bootstrap starter project that provides seemless integration with AWS.  When used with [aws-sam-rest-api-starter](https://github.com/jorshali/aws-sam-rest-api-starter) you can have an AWS-backed React Bootstrap project up in less than 20 minutes.
+
+## Introduction
 
 This project includes built-in support for:
 
@@ -14,6 +16,7 @@ This project includes built-in support for:
 
 The project seemlessly brings together the following libraries:
 
+- [TypeScript](https://www.typescriptlang.org)
 - [React](https://reactjs.org)
 - [React Bootstrap](https://react-bootstrap.github.io)
 - [MobX](https://mobx.js.org/README.html)
