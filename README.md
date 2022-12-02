@@ -1,6 +1,8 @@
-# react-bootstrap-aws-starter
+# aws-react-bootstrap-starter
 
-A React Bootstrap starter project that provides seemless integration with AWS.  When used with [aws-sam-rest-api-starter](https://github.com/jorshali/aws-sam-rest-api-starter) you can have an AWS-backed React Bootstrap project up in less than 20 minutes.
+A TypeScript-based React Bootstrap starter project that provides seemless integration with AWS.  When used with [aws-sam-rest-api-starter](https://github.com/jorshali/aws-sam-rest-api-starter) you can have an AWS-backed React Bootstrap project up in less than 20 minutes.
+
+## Introduction
 
 This project includes built-in support for:
 
@@ -14,6 +16,7 @@ This project includes built-in support for:
 
 The project seemlessly brings together the following libraries:
 
+- [TypeScript](https://www.typescriptlang.org)
 - [React](https://reactjs.org)
 - [React Bootstrap](https://react-bootstrap.github.io)
 - [MobX](https://mobx.js.org/README.html)
@@ -75,8 +78,8 @@ src/
 Here are some details:
 - components:  the components directory contains all React components.  This is where you'll add your own components or customize the provided components.
 - config: the configuration for your project by environment.  You can add your own configuration here and access that configuration using the static `EnvConfig` class.
-- hooks:  all React hooks will be added here.  The provided hooks will be useful within your project.  Some useful hook are the `useStores` hook which provides access to all MobX stores and the `useAxios` hook which provides access to an (Axios)[https://www.npmjs.com/package/axios] instance that can invoke your REST APIs using the built-in authentication.
-- models:  all of your models belong here.  These are the classes that hold the data and related behavior for your application.  They may use (MobX)[https://mobx.js.org/README.html] observables if they need to reflect UI state.
+- hooks:  all React hooks will be added here.  The provided hooks will be useful within your project.  Some useful hook are the `useStores` hook which provides access to all MobX stores and the `useAxios` hook which provides access to an [Axios](https://www.npmjs.com/package/axios) instance that can invoke your REST APIs using the built-in authentication.
+- models:  all of your models belong here.  These are the classes that hold the data and related behavior for your application.  They may use [MobX](https://mobx.js.org/README.html) observables if they need to reflect UI state.
 - stores:  these are [MobX stores](https://mobx.js.org/README.html) that hold the state for your application.  You can read more about stores in the MobX documentation.
 - utility:  any generic utilities for application use.
 - App.tsx:  the entry point for your application.  All route definitions are found here as well as the basic template for your application.
