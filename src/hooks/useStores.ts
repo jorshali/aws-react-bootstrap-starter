@@ -3,18 +3,18 @@ import { AsyncStore } from '../stores/AsyncStore';
 
 import { AuthenticationStore } from '../stores/AuthenticationStore';
 import { ErrorStore } from '../stores/ErrorStore';
-import { PostStore } from '../stores/PostStore';
+import { BlogPostStore } from '../stores/BlogPostStore';
 
 const errorStore = new ErrorStore();
 const asyncStore = new AsyncStore(errorStore);
 const authenticationStore = new AuthenticationStore();
-const postStore = new PostStore();
+const blogPostStore = new BlogPostStore();
 
 const storesContext = React.createContext({
   errorStore,
   asyncStore,
   authenticationStore,
-  postStore
+  blogPostStore
 });
 
 export const useStores = () => {

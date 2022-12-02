@@ -1,8 +1,8 @@
 {
   "localhost": {
-    "awsUserPoolId": "<local-cognito-user-pool-id>",
-    "awsClientId": "<local-cognito-client-id>",
-    "awsBaseServiceUrl": "http://localhost:3000/post-service"
+    "awsUserPoolId": "us-west-2_Kjgeibngi",
+    "awsClientId": "4ul2aqm5r489ocj6qir9midi09",
+    "awsBaseServiceUrl": "https://2ikp9ksmxb.execute-api.us-west-2.amazonaws.com/V1"
   },
   "www.my-host.com": {
     "awsUserPoolId": "<prod-cognito-user-pool-id>",

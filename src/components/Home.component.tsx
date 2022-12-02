@@ -6,17 +6,17 @@ import { Container } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import { TileCard } from './common/TileCard.component';
 import { useStores } from '../hooks/useStores';
-import { usePosts } from '../hooks/usePosts';
+import { useBlogPosts } from '../hooks/useBlogPosts';
 
 const Home: React.FC<{}> = observer(() => {
   let navigate = useNavigate();
   
   const { 
-    postStore,
+    blogPostStore,
     asyncStore
   } = useStores();
 
-  const { loadPosts } = usePosts();
+  const { loadPosts } = useBlogPosts();
 
   useEffect(() => {
     asyncStore.showLoading(async () => {

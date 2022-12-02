@@ -1,8 +1,8 @@
 import { makeAutoObservable } from "mobx";
-import { Post } from "../models/Post";
+import { BlogPost } from "../models/BlogPost";
 
-export class PostStore {
-  posts: Post[];
+export class BlogPostStore {
+  posts: BlogPost[];
 
   constructor() {
     makeAutoObservable(this);

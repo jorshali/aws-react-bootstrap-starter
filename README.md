@@ -37,7 +37,7 @@ $ rm -rf .git
   "localhost": {
     "awsUserPoolId": "<local-cognito-user-pool-id>",
     "awsClientId": "<local-cognito-client-id>",
-    "awsBaseServiceUrl": "http://localhost:3000/post-service"
+    "awsBaseServiceUrl": "http://localhost:3000/blogposts"
   },
   "www.my-host.com": {
     "awsUserPoolId": "<prod-cognito-user-pool-id>",
